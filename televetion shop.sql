@@ -11,6 +11,6 @@ year_release INTEGER,
 tv_smart TEXT CHECK(tv_smart IN('Yes', 'No')),
 Os TEXT DEFAULT NULL,
 panel_type TEXT CHECK(panel_type IN('OLED', 'QLED', 'LED'))
-)
+);
 
 
